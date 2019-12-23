@@ -16,6 +16,7 @@ Quando seleciono Contas
 E seleciono Adicionar
 
 
+
 Esquema do Cenario: 
 Quando informo a conta "<conta>"
 E seleciono Salvar

@@ -13,8 +13,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 	  //features = "src/test/resources/features/AprenderCucumberSteps.feature",
       //features = "src/test/resources/features/alugar_filme.feature",
-	    features = "src/test/resources/features/",
-	  //features = "src/test/resources/features/inserir_conta.feature",  
+	  //  features = "src/test/resources/features/",
+	  features = "src/test/resources/features/inserir_conta.feature",  
 	  //tags = "@esse",  execute apenas o cenario que tiver a tag
 	  //tags = {"@tipo1","@tipo2"}, organização: excuta cenario
 	    tags = "@funcionais",
@@ -30,7 +30,7 @@ public class RunnerFuncionalTest {
 	@BeforeClass
 	public static void reset() {
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Eduardo\\Documents\\Softwares & Servidores\\WEBDRIVER\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\eduardo.matias\\Documents\\DRIVERS\\chromedriver2.exe");
 		WebDriver driver = new ChromeDriver();
 		
 	    driver.get("http://srbarriga.herokuapp.com");
